@@ -83,7 +83,7 @@ div[class*="col-"]{
 /* PROFILE */
 
 .profile{
-  padding:25px 25px 25px 0;
+  padding:0 25px;
   text-align:center;
 }
 .profile .image img{
@@ -101,7 +101,7 @@ div[class*="col-"]{
 /* CONTENT */
 
 .content{
-  padding:25px;
+  padding:0 25px;
 }
 .content .stats{
   padding:20px;
@@ -133,7 +133,7 @@ div[class*="col-"]{
 /* SUGGESTIONS */
 
 .suggestions{
-  padding:25px 0 25px 25px;
+  padding:0 25px;
 }
 .suggestions .list{
   padding:0 25px 25px 25px;
@@ -186,6 +186,9 @@ footer nav li a:hover{
     }
     .profile .bio .joined{
       display: none;
+    }
+    .content .tweets{
+      margin:25px 0 25px 0;
     }
     .content .tweets .actions{
       display: none;
