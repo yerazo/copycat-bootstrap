@@ -21,22 +21,28 @@
   </head>
   
   <body>
-    <header class="primary-background">
-      <div class="logo">
-        <img src="assets/images/logo.png" alt="Twitter icon">
-      </div>
-      
-      <div class="text secondary-text">
-        Copycat Bootstrap
-      </div>
+    <header class="containter-fluid">
+      <div class="row">
+        <div class="primary-background col-xs-12">
+          <div class="row">
+            <div class="logo col-xs-7 col-sm-1">
+              <img src="assets/images/logo.png" alt="Twitter icon">
+            </div>
+            
+            <div class="text secondary-text">
+              Copycat Bootstrap
+            </div>
 
-      <nav>
-        <a href="/logout" class="btn primary-text secondary-background">Logout</a>
-      </nav>
+            <nav class="col-xs-5 col-sm-push-7">
+              <a href="/logout" class="btn primary-text secondary-background">Logout</a>
+            </nav>
+          </div>
+        </div>
+      </div>
     </header>
 
-    <main>
-      <div class="col-quarter profile">
+    <main class="container-fluid">
+      <div class="col-xs- col-sm-3 col-quarter profile">
         <div class="image border">
           <img src="assets/images/person.png" alt="Profile picture">
         </div>
@@ -136,7 +142,7 @@
       </div>
     </main>
 
-    <footer class="primary-background">
+    <footer class="container-fluid primary-background">
       <img src="assets/images/logo.png" alt="Twitter logo">
       <nav>
         <ul>

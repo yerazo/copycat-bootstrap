@@ -39,7 +39,7 @@ body{
 /* HEADER */
 
 header{
-  padding:10px 75px;
+  padding:0px 15px;
   overflow:auto;
   height:75px;
   line-height:75px;
@@ -169,3 +169,14 @@ footer nav li a{
 footer nav li a:hover{
   opacity:0.8;
 }
+
+/*MEDIA QUERIES*/
+ @media screen and (max-width:768px){
+    header .text{
+      display: none;
+    }
+    header .logo img{
+      width: 25%;
+
+    }
+ }
