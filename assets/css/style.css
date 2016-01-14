@@ -178,6 +178,12 @@ footer nav li a:hover{
     header .logo img{
       width: 25%;
     }
+    .profile .image img{
+      max-width: 100%;
+    }
+    .profile .bio{
+      margin-top: 0;
+    }
     .profile .bio .joined{
       display: none;
     }
