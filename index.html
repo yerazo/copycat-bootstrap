@@ -29,7 +29,7 @@
               <img src="assets/images/logo.png" alt="Twitter icon">
             </div>
             
-            <div class="text secondary-text">
+            <div class="text secondary-text hidden-xs">
               Copycat Bootstrap
             </div>
 
@@ -43,33 +43,40 @@
 
     <main class="container-fluid">
       <div class="row">
-        <div class="col-xs-12 col-sm-3 profile">
-            <div class="image border">
-              <img src="assets/images/person.png" alt="Profile picture">
-            </div>
+        <div class="col-xs-12 col-sm-3">
+          <div class="profile">
 
-            <div class="bio border">
-              <h1>Jane Doe</h1>
-              <h3>Mars, Milky Way</h3>
-              <p>I like long spacewalks.</p>
+            <div class="row">
+              <div class="col-xs-6 col-sm-12">
+                <div class="image border">
+                  <img src="assets/images/person.png" alt="Profile picture">
+                </div>
+              </div>
 
-              <div class="joined">
-                Joined in 1024
+              <div class="col-xs-6 col-sm-12">
+                <div class="bio border">
+                  <h1>Jane Doe</h1>
+                  <h3>Mars, Milky Way</h3>
+                  <p>I like long spacewalks.</p>
+
+                  <div class="joined hidden-xs">
+                    Joined in 1024
+                  </div>
+                </div>
               </div>
             </div>
-
+          </div>
         </div>
-      
 
       
         <div class="col-xs-12 col-sm-6 content">
           <div class="row">
-            <div class="stats border">
-              <div class="col-sm-6 following">
+            <div class="stats border margin-top">
+              <div class="col-xs-6 following">
                 <span class="primary-text">242</span> Following
               </div>
 
-              <div class="col-sm-6 followers">
+              <div class="col-xs-6 followers">
                 <span class="primary-text">420</span> Followers
               </div>
             </div>
@@ -77,46 +84,46 @@
 
           <div class="row">
             <div class="tweets border">
-              <div class="tweet">
-                <div class="message col-sm-9">
+              <div class="tweet row">
+                <div class="col-xs-12 col-sm-6 message">
                   <p>The tweet content</p>
                   <strong>@johndoe</strong>
                 </div>
 
-                <div class="actions col-sm-3">
+                <div class="actions col-xs-6">
                   <a href="" class="btn primary-background secondary-text">Retweet</a>
                 </div>
               </div>
 
-              <div class="tweet">
-                <div class="message col-sm-9">
+              <div class="tweet row">
+                <div class="col-xs-12 col-sm-6 message">
                   <p>The tweet content 2</p>
                   <strong>@johndoe</strong>
                 </div>
 
-                <div class="actions col-sm-3">
+                <div class="actions col-xs-6">
                   <a href="" class="btn primary-background secondary-text">Retweet</a>
                 </div>
               </div>
 
-              <div class="tweet">
-                <div class="message col-sm-9">
+              <div class="tweet row">
+                <div class="col-xs-12 col-sm-6 message">
                   <p>The tweet content 3</p>
                   <strong>@johndoe</strong>
                 </div>
 
-                <div class="actions col-sm-3">
+                <div class="actions col-xs-6">
                   <a href="" class="btn primary-background secondary-text">Retweet</a>
                 </div>
               </div>
 
-              <div class="tweet">
-                <div class="message col-sm-9">
+              <div class="tweet row">
+                <div class="col-xs-12 col-sm-6 message">
                   <p>The tweet content 4</p>
                   <strong>@johndoe</strong>
                 </div>
 
-                <div class="actions col-sm-3">
+                <div class="actions col-xs-6">
                   <a href="" class="btn primary-background secondary-text">Retweet</a>
                 </div>
               </div>
@@ -125,24 +132,30 @@
         </div>
 
       
-        <div class="col-xs-12 col-sm-3 suggestions">
+        <div class="col-xs-12 col-sm-3 suggestions margin-top">
           <div class="list border">
 
             <h2>Who To Follow</h2>
             <div class="row">  
-              <div class="col-xs-4 col-sm-12 user">
-                <img src="assets/images/person.png" width="50">
-                <strong>Jane Doe</strong>
+              <div class="col-xs-4 col-sm-12">
+                <div class="user">
+                  <img src="assets/images/person.png" width="50">
+                  <strong>Jane Doe</strong>
+                </div>
               </div>
 
-              <div class="col-xs-4 col-sm-12 user">
-                <img src="assets/images/person.png" width="50">
-                <strong>John Smith</strong>
+              <div class="col-xs-4 col-sm-12">
+                <div class="user">
+                  <img src="assets/images/person.png" width="50">
+                  <strong>John Smith</strong>
+                </div>
               </div>
 
-              <div class="col-xs-4 col-sm-12 user">
-                <img src="assets/images/person.png" width="50">
-                <strong>William White</strong>
+              <div class="col-xs-4 col-sm-12">
+                <div class="user">
+                  <img src="assets/images/person.png" width="50">
+                  <strong>William White</strong>
+                </div> 
               </div>
             </div>
           </div>
